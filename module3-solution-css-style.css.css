@@ -1,0 +1,42 @@
+/* ===== Seção obrigatória (alta, cor de fundo distinta) ===== */
+.tall-section {
+  height: 1000px;
+  background-color: #f0ad4e; /* laranja, pra destacar do resto do conteúdo */
+  padding: 20px;
+  color: #ffffff;
+}
+
+/* ===== Menu mobile dropdown: fundo distinto, ocupa a tela toda ===== */
+.navbar-collapse.in,
+.navbar-collapse.collapsing {
+  background-color: #333333;
+}
+
+.navbar-collapse .nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-collapse .nav > li > a:hover,
+.navbar-collapse .nav > li > a:focus {
+  background-color: #555555;
+  color: #ffffff;
+}
+
+/* ===== Cabeçalho da página ===== */
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ===== Seções opcionais: Chicken / Beef / Sushi ===== */
+.menu-section {
+  min-height: 700px;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+
+.back-to-top {
+  display: inline-block;
+  margin-top: 10px;
+}
